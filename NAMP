@@ -1,0 +1,14 @@
+# فحص IP معين
+nmap <IP Address>
+
+# مثال
+nmap 192.168.1.1
+
+# فحص جميع المنافذ المفتوحة
+nmap -p- <IP Address>
+
+# فحص مع معلومات النسخة
+nmap -sV <IP Address>
+
+# إضافة بصمتك (تايسون) أثناء التشغيل
+echo "Tyson - Nmap Scan" && nmap <IP Address>
